@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CRUD com Node.js e SQLite</h1>
+
+    <div id="form-container">
+        <h2>Adicionar Item</h2>
+        <input type="text" id="itemName" placeholder="Nome do item">
+        <button onclick="createItem()">Adicionar</button>
+    </div>
+
+    <div id="items-container">
+        <h2>Itens</h2>
+        <ul id="itemsList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
